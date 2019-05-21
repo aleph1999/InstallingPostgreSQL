@@ -8,8 +8,17 @@
  To begin with download the app at the following link:
  https://postgresapp.com/downloads.html
  
- Once downloaded and placed in the application folder, you may begin to build powerful databases. In order to save time and 
- avoid headache, I suggest you install a UI (User interface) that allows you to build queries, view structure and understand   content. 
+ Once downloaded and placed in the application folder, you must log on to a host and onto a port on the first page of the app.
+ 
+ Potential Issues/Errors: 
+ - *ERROR: PORT 5432 is already in use*
+ This means that when you are attempting to open a server on the app through port 5432, you have already gave some functionality to this port at an earlier stage. Although this may appear intimidating, the solution is fairly simple. 
+ Enter the following sudo code on the command line of your Mac terminal:
+ sudo pkill -u postgres
+ For more help please open the following:
+ https://stackoverflow.com/questions/42416527/postgres-app-port-in-use?rq=1
+ 
+ When moving forward, I suggest you install a UI (User interface) that allows you to build queries, view structure and understand content. 
  
  The two most well known UI's are: 
  
